@@ -44,7 +44,7 @@ var api = new ParseServer({
   // Set the mount path as it is in serverURL
   publicServerURL: 'https://myownfamily.herokuapp.com/parse',
   // Your apps name. This will appear in the subject and body of the emails that are sent.
-  appName: 'My Family Tree',
+  appName: 'My Family Diary',
   // The email adapter
   emailAdapter: {
     module: '@parse/simple-mailgun-adapter',
